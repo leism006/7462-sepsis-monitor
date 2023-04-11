@@ -1,6 +1,6 @@
 ---
 title: "ICU Report"
-format: html
+format: gfm
 execute: 
   eval: true
   echo: false
