@@ -13,9 +13,9 @@ source("sepsis_monitor_functions.R")
 read_time <- function(pt_n = 50, read_fxn = "fread"){
   time_msg <- 
     {
-    tic()
-    makeSepsisDataset(pt_n, read_fxn)
-    toc()
+      tic()
+      makeSepsisDataset(pt_n, read_fxn)
+      toc()
     }
   return(time_msg$callback_msg)
 }
@@ -54,5 +54,3 @@ sepsis_file <- drive_put(media = "sepsis_data_temp.csv",
 
 # Set the file permissions so anyone can download this file.
 sepsis_file %>% drive_share_anyone()
-
-

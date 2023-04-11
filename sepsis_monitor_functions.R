@@ -9,19 +9,19 @@ getPatient <- function(idnum, read_function = "fread") {
   
   if(read_function == "fread") {
     data <- fread(url,
-                sep = "|",
-                na.strings = c("", "NA", "NaN"),
-                showProgress = FALSE) %>%
-    tibble() %>%
-    select(ICULOS, HR, Temp, Resp, SepsisLabel) %>%
-    mutate(across(-Temp, as.integer),
-           Temp = as.numeric(Temp),
-           PatientID = ptid_string) %>%
-    select(PatientID, everything())
+                  sep = "|",
+                  na.strings = c("", "NA", "NaN"),
+                  showProgress = FALSE) %>%
+      tibble() %>%
+      select(ICULOS, HR, Temp, Resp, SepsisLabel) %>%
+      mutate(across(-Temp, as.integer),
+             Temp = as.numeric(Temp),
+             PatientID = ptid_string) %>%
+      select(PatientID, everything())
   } else if (read_function == "read_delim") {
     data <- read_delim(url,
-                  delim = "|",
-                  na = c("", "NA", "NaN")) %>%
+                       delim = "|",
+                       na = c("", "NA", "NaN")) %>%
       select(ICULOS, HR, Temp, Resp, SepsisLabel) %>%
       mutate(across(-Temp, as.integer),
              Temp = as.numeric(Temp),
@@ -29,7 +29,7 @@ getPatient <- function(idnum, read_function = "fread") {
       select(PatientID, everything())
     
   }
-
+  
   return(data)
 }
 
@@ -55,4 +55,3 @@ updateData <- function(drive_url) {
   
   return(updated_data)
 }
-

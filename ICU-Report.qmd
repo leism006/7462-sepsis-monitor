@@ -21,17 +21,13 @@ library(data.table)
 library(lubridate)
 library(googledrive)
 library(readr)
-
 source("sepsis_monitor_functions.R")
-
 ## Calling drive_deauth() prevents R from trying to authenticate via a browser
 ## This is needed to make the GitHub Action work
 drive_deauth()
 file_link <- "https://drive.google.com/file/d/1tumqraj4-TYNViaG6abUBl8Tx4pMN-wU/view?usp=share_link"
-
 ## All data up until now
 new_data <- updateData(file_link)
-
 ## Include only most recent data
 most_recent_data <- new_data %>%
   group_by(PatientID) %>%
@@ -43,13 +39,11 @@ most_recent_data <- new_data %>%
 
 ```{r}
 library(gt)
-
 ## check if there are any patients with sepsis and print message if not
 if (sum(new_data$SepsisLabel == 1) == 0) {
   print("There are no patients with sepsis at the time of this report")
 } else {
 ## create a table with patientID, HR, Temp, and Resp for patients with sepsis
-
 # filter patients with sepsis and select columns
   sepsis_table_data <- new_data %>%
     filter(SepsisLabel == 1) %>%
@@ -75,7 +69,6 @@ if (sum(new_data$SepsisLabel == 1) == 0) {
   print("There are no patients with sepsis at the time of this report")
 } else {
 ## create a ggplot with HR, Temp, and Resp history for patients with sepsis
-
 ## filter sepsis pts
   sepsis_plot_data <- new_data %>%
     filter(SepsisLabel == 1) %>%
@@ -109,26 +102,21 @@ last_two_HR <- new_data %>%
   filter(!is.na(HR)) %>%
   slice_tail(n = 2) %>%
   summarize(HR_change = diff(HR, na.rm = TRUE))
-
 last_two_temp <- new_data %>%
   select(PatientID, Temp) %>%
   group_by(PatientID) %>%
   filter(!is.na(Temp)) %>%
   slice_tail(n = 2) %>%
   summarize(Temp_change = diff(Temp, na.rm = TRUE))
-
 last_two_Resp <- new_data %>%
   select(PatientID, Resp) %>%
   group_by(PatientID) %>%
   filter(!is.na(Resp)) %>%
   slice_tail(n = 2) %>%
   summarize(Resp_change = diff(Resp, na.rm = TRUE))
-
-
 ##join data by PatientID
 vitals_change <- full_join(last_two_HR, last_two_temp, by = "PatientID") %>%
   full_join(last_two_Resp, by = "PatientID")
-
 ##Create Table with change in values
 gt(vitals_change) %>%
   tab_header("ICU Patients with Sepsis") %>%
@@ -137,7 +125,3 @@ gt(vitals_change) %>%
              Temp_change = "Temperature Change", 
              Resp_change = "Respiratory Rate Change")
 ```
-
-
-
-
