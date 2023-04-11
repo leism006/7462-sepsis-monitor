@@ -42,7 +42,7 @@ jobs:
       - name: Render document
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          to: gfm
+          to: html
           path: README.qmd
 
       - name: Setup git config
