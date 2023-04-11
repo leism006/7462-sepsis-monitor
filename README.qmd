@@ -1,9 +1,9 @@
 ---
 title: "ICU Report"
-format: gfm
+format: html
 execute: 
   eval: true
-  echo: true
+  echo: false
   warning: false
   message: false
 editor: visual
@@ -133,9 +133,9 @@ vitals_change <- full_join(last_two_HR, last_two_temp, by = "PatientID") %>%
 gt(vitals_change) %>%
   tab_header("ICU Patients with Sepsis") %>%
   cols_label(PatientID = "Patient ID", 
-             HR = "Heart Rate", 
-             Temp = "Temperature", 
-             Resp = "Respiratory Rate")
+             HR_change = "Heart Rate Change", 
+             Temp_change = "Temperature Change", 
+             Resp_change = "Respiratory Rate Change")
 ```
 
 
