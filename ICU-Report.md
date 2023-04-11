@@ -1,7 +1,7 @@
 ICU Report
 ================
 
-Report last run: 2023-04-11 06:21:23
+Report last run: 2023-04-11 06:27:03
 
 ## Introduction
 
@@ -18,23 +18,23 @@ patients being tracked.
 
 ## A table showing the change in heart rate, temperature, and respiratory rate between the last two measurements for all patients
 
-<div id="tasvspqatt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#tasvspqatt table {
+<div id="weukxypexp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#weukxypexp table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#tasvspqatt thead, #tasvspqatt tbody, #tasvspqatt tfoot, #tasvspqatt tr, #tasvspqatt td, #tasvspqatt th {
+#weukxypexp thead, #weukxypexp tbody, #weukxypexp tfoot, #weukxypexp tr, #weukxypexp td, #weukxypexp th {
   border-style: none;
 }
 
-#tasvspqatt p {
+#weukxypexp p {
   margin: 0;
   padding: 0;
 }
 
-#tasvspqatt .gt_table {
+#weukxypexp .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -60,12 +60,12 @@ patients being tracked.
   border-left-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_caption {
+#weukxypexp .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#tasvspqatt .gt_title {
+#weukxypexp .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -77,7 +77,7 @@ patients being tracked.
   border-bottom-width: 0;
 }
 
-#tasvspqatt .gt_subtitle {
+#weukxypexp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -89,7 +89,7 @@ patients being tracked.
   border-top-width: 0;
 }
 
-#tasvspqatt .gt_heading {
+#weukxypexp .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -101,13 +101,13 @@ patients being tracked.
   border-right-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_bottom_border {
+#weukxypexp .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_col_headings {
+#weukxypexp .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -122,7 +122,7 @@ patients being tracked.
   border-right-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_col_heading {
+#weukxypexp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -142,7 +142,7 @@ patients being tracked.
   overflow-x: hidden;
 }
 
-#tasvspqatt .gt_column_spanner_outer {
+#weukxypexp .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -154,15 +154,15 @@ patients being tracked.
   padding-right: 4px;
 }
 
-#tasvspqatt .gt_column_spanner_outer:first-child {
+#weukxypexp .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#tasvspqatt .gt_column_spanner_outer:last-child {
+#weukxypexp .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#tasvspqatt .gt_column_spanner {
+#weukxypexp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -174,11 +174,11 @@ patients being tracked.
   width: 100%;
 }
 
-#tasvspqatt .gt_spanner_row {
+#weukxypexp .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#tasvspqatt .gt_group_heading {
+#weukxypexp .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -204,7 +204,7 @@ patients being tracked.
   text-align: left;
 }
 
-#tasvspqatt .gt_empty_group_heading {
+#weukxypexp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -219,15 +219,15 @@ patients being tracked.
   vertical-align: middle;
 }
 
-#tasvspqatt .gt_from_md > :first-child {
+#weukxypexp .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#tasvspqatt .gt_from_md > :last-child {
+#weukxypexp .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#tasvspqatt .gt_row {
+#weukxypexp .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -246,7 +246,7 @@ patients being tracked.
   overflow-x: hidden;
 }
 
-#tasvspqatt .gt_stub {
+#weukxypexp .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -259,7 +259,7 @@ patients being tracked.
   padding-right: 5px;
 }
 
-#tasvspqatt .gt_stub_row_group {
+#weukxypexp .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -273,15 +273,15 @@ patients being tracked.
   vertical-align: top;
 }
 
-#tasvspqatt .gt_row_group_first td {
+#weukxypexp .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#tasvspqatt .gt_row_group_first th {
+#weukxypexp .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#tasvspqatt .gt_summary_row {
+#weukxypexp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -291,16 +291,16 @@ patients being tracked.
   padding-right: 5px;
 }
 
-#tasvspqatt .gt_first_summary_row {
+#weukxypexp .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_first_summary_row.thick {
+#weukxypexp .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#tasvspqatt .gt_last_summary_row {
+#weukxypexp .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -310,7 +310,7 @@ patients being tracked.
   border-bottom-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_grand_summary_row {
+#weukxypexp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -320,7 +320,7 @@ patients being tracked.
   padding-right: 5px;
 }
 
-#tasvspqatt .gt_first_grand_summary_row {
+#weukxypexp .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -330,7 +330,7 @@ patients being tracked.
   border-top-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_last_grand_summary_row_top {
+#weukxypexp .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -340,11 +340,11 @@ patients being tracked.
   border-bottom-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_striped {
+#weukxypexp .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#tasvspqatt .gt_table_body {
+#weukxypexp .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -353,7 +353,7 @@ patients being tracked.
   border-bottom-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_footnotes {
+#weukxypexp .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -367,7 +367,7 @@ patients being tracked.
   border-right-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_footnote {
+#weukxypexp .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -376,7 +376,7 @@ patients being tracked.
   padding-right: 5px;
 }
 
-#tasvspqatt .gt_sourcenotes {
+#weukxypexp .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -390,7 +390,7 @@ patients being tracked.
   border-right-color: #D3D3D3;
 }
 
-#tasvspqatt .gt_sourcenote {
+#weukxypexp .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -398,63 +398,63 @@ patients being tracked.
   padding-right: 5px;
 }
 
-#tasvspqatt .gt_left {
+#weukxypexp .gt_left {
   text-align: left;
 }
 
-#tasvspqatt .gt_center {
+#weukxypexp .gt_center {
   text-align: center;
 }
 
-#tasvspqatt .gt_right {
+#weukxypexp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tasvspqatt .gt_font_normal {
+#weukxypexp .gt_font_normal {
   font-weight: normal;
 }
 
-#tasvspqatt .gt_font_bold {
+#weukxypexp .gt_font_bold {
   font-weight: bold;
 }
 
-#tasvspqatt .gt_font_italic {
+#weukxypexp .gt_font_italic {
   font-style: italic;
 }
 
-#tasvspqatt .gt_super {
+#weukxypexp .gt_super {
   font-size: 65%;
 }
 
-#tasvspqatt .gt_footnote_marks {
+#weukxypexp .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#tasvspqatt .gt_asterisk {
+#weukxypexp .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#tasvspqatt .gt_indent_1 {
+#weukxypexp .gt_indent_1 {
   text-indent: 5px;
 }
 
-#tasvspqatt .gt_indent_2 {
+#weukxypexp .gt_indent_2 {
   text-indent: 10px;
 }
 
-#tasvspqatt .gt_indent_3 {
+#weukxypexp .gt_indent_3 {
   text-indent: 15px;
 }
 
-#tasvspqatt .gt_indent_4 {
+#weukxypexp .gt_indent_4 {
   text-indent: 20px;
 }
 
-#tasvspqatt .gt_indent_5 {
+#weukxypexp .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
